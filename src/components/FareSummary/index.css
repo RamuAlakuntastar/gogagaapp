@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.depatureCont {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 2%;
+   padding: 10px;
+    height: 13vh;
+    width: 79%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right,black, rgba(46, 46, 192, 0.996));
+}
+
+.departure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.timeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.lastdeparture {
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.paradeparture {
+    color: white;
+    font-size: 17px;
+}
+
+.lastparadeparture {
+    color: white;
+    font-size: 14px;
+}
+
+.timepara {
+  color: white;
+    font-size: 14px;
+}

@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.classlistcard {
+    height: 17vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 01%;
+     width: 100%;
+     border: 2px solid  rgba(89, 13, 13, 0.644);
+     background-color: white;
+     border-radius: 10px;
+     padding: 5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+
+}
+
+.firstcont {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+
+
+.secondcont {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+}
+
+.third {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+}
+
+
+.pa1 {
+    color: black;
+    font-size: 12px;
+
+}

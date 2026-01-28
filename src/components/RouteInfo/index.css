@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.fromContainer {
+    height: 10vh;
+    width: 80%;
+    margin-left: 2%;
+}
+      
+.fromClass {
+    height: 10vh;
+    width: 46%;
+    background-color: transparent;
+    border: 2px solid rgba(128, 128, 128, 0.686);
+    border-radius: 10px;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 13px;
+
+}
+
+.toClass {
+     height: 10vh;
+    width: 46%;
+    background-color: transparent;
+    border: 2px solid rgba(128, 128, 128, 0.686);
+    border-radius: 10px;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-left: 13px;
+
+}
